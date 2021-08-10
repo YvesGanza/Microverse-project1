@@ -5,12 +5,9 @@
 .nav-item{
     margin-left: 200px;
 }
-navbar{
-    height: 200em;
 
-}
 #about{
-    height: 200em;
+    margin-top: 200px;
 }
 .container{
     position: relative;
@@ -23,3 +20,10 @@ navbar{
     left: 50%;
     transform: translate(-50%, -50%);
   }
+header{
+    
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top:0;
+}
